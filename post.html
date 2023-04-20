@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <p id="loading">Loading...</p>
+    <div id="post" class="hide">
+        <a href="index.html">Voltar</a>
+        <div id="container-top">
+            <div id="post-container"></div>
+            <div id="container-comentar">
+                <h2>Comentar:</h2>
+                <form id="comment-form">
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="email" required />
+                    </div>
+                    <div>
+                        <label for="body">Camentario:</label>
+                        <textarea name="body" id="body" placeholder="Comente" required ></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+        </div>  
+        <div id="comments">
+                <h2 id="title-comment">Comentarios:</h2>
+                <div id="comentario-container"></div>
+                </div>
+    </div>
+</body>
+</html>
